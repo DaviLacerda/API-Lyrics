@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyrics Search</title>
+    <meta name="description" content="A searching lyrics project. Developed by Davi Lacerda">
+
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/54/54481.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="search__container">
+        <div class="search__container__input">
+            <input type="text" id="artist" placeholder="Artist name">
+            <input type="text" id="music" placeholder="Music Name">
+            <button id="search" class="btn-grad">Search</button>
+        </div>
+        <div id="lyrics"></div>
+    </div>
+</body>
+</html>
