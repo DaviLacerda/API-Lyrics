@@ -1,3 +1,4 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 *{
@@ -30,6 +31,7 @@ body{
     height: fit-content;
 
     margin: 32px;
+    padding: 16px;
 
     background: rgba( 255, 255, 255, 0.25 );
     backdrop-filter: blur( 4px );
@@ -105,6 +107,10 @@ body{
                 cursor: pointer;
             }
         }  
+    }
+
+    #spinner{
+        display:none;
     }
 
     #lyrics{

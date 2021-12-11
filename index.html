@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/54/54481.png" type="image/x-icon">
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
     <script src="index.js" defer></script>
 </head>
@@ -20,6 +20,11 @@
             <input type="text" id="music" placeholder="Music Name">
             <button id="search" class="btn-grad">Search</button>
         </div>
+
+        <div class="spinner-grow" role="status" id="spinner">
+            <span class="sr-only"></span>
+        </div>
+
         <div id="lyrics"></div>
     </div>
 </body>
